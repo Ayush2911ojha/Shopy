@@ -9,6 +9,7 @@ import {
 } from '../features/cart/cartSlice';
 import { selectLoggedInUser, updateUserAsync } from '../features/auth/authSlice';
 import { createOrderAsync, selectCurrentOrder } from '../features/order/orderSlice';
+import { selectUserInfo } from '../features/user/userSlice';
 
 
 function Checkout() {
@@ -20,7 +21,7 @@ function Checkout() {
     formState: { errors },
   } = useForm();
 
-  const user=useSelector(selectLoggedInUser)
+  const user=useSelector(selectUserInfo)
   const [open, setOpen] = useState(true)
   const items=useSelector(selectItems);
   const currentOrder=useSelector(selectCurrentOrder);
