@@ -1,47 +1,48 @@
 {
   "products": [
     {
-      "id": "1",
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
+      "price": 200,
+      "discountPercentage": 0,
+      "stock": 94,
       "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/1/1.jpg",
         "https://cdn.dummyjson.com/product-images/1/2.jpg",
         "https://cdn.dummyjson.com/product-images/1/3.jpg",
-        "https://cdn.dummyjson.com/product-images/1/4.jpg",
         "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-      ]
+      ],
+      "rating": 0,
+      "id": "1",
+      "deleted": true
     },
     {
-      "id": "2",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
+      "price": 8,
+      "discountPercentage": 0,
+      "stock": 34,
       "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/2/1.jpg",
         "https://cdn.dummyjson.com/product-images/2/2.jpg",
         "https://cdn.dummyjson.com/product-images/2/3.jpg",
         "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-      ]
+      ],
+      "rating": 4.44,
+      "id": "2",
+      "deleted": true
     },
     {
       "id": "3",
       "title": "Samsung Universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
+      "price": 3,
       "discountPercentage": 15.46,
       "rating": 4.09,
       "stock": 36,
@@ -49,14 +50,17 @@
       "category": "smartphones",
       "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
       "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
+        "https://cdn.dummyjson.com/product-images/3/1.jpg",
+        "https://cdn.dummyjson.com/product-images/3/1.jpg",
+        "https://cdn.dummyjson.com/product-images/3/1.jpg",
+        "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg"
       ]
     },
     {
       "id": "4",
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
+      "price": 190,
       "discountPercentage": 17.91,
       "rating": 4.3,
       "stock": 123,
@@ -67,7 +71,6 @@
         "https://cdn.dummyjson.com/product-images/4/1.jpg",
         "https://cdn.dummyjson.com/product-images/4/2.jpg",
         "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
         "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
       ]
     },
@@ -122,13 +125,14 @@
         "https://cdn.dummyjson.com/product-images/7/2.jpg",
         "https://cdn.dummyjson.com/product-images/7/3.jpg",
         "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": "8",
       "title": "Microsoft Surface Laptop 4",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
+      "price": 399,
       "discountPercentage": 10.23,
       "rating": 4.43,
       "stock": 68,
@@ -139,28 +143,26 @@
         "https://cdn.dummyjson.com/product-images/8/1.jpg",
         "https://cdn.dummyjson.com/product-images/8/2.jpg",
         "https://cdn.dummyjson.com/product-images/8/3.jpg",
-        "https://cdn.dummyjson.com/product-images/8/4.jpg",
         "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
       ]
     },
     {
-      "id": "9",
       "title": "Infinix INBOOK",
       "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
-      "rating": 4.54,
-      "stock": 96,
       "brand": "Infinix",
       "category": "laptops",
+      "price": 1234,
+      "discountPercentage": 11.83,
+      "stock": 96,
       "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/9/1.jpg",
         "https://cdn.dummyjson.com/product-images/9/2.png",
         "https://cdn.dummyjson.com/product-images/9/3.png",
-        "https://cdn.dummyjson.com/product-images/9/4.jpg",
         "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
-      ]
+      ],
+      "rating": 4.54,
+      "id": "9"
     },
     {
       "id": "10",
@@ -1838,6 +1840,60 @@
         "https://cdn.dummyjson.com/product-images/100/3.jpg",
         "https://cdn.dummyjson.com/product-images/100/thumbnail.jpg"
       ]
+    },
+    {
+      "id": "38cd",
+      "title": "sabun",
+      "description": "Nahao mst mahak jao ",
+      "brand": "Apple",
+      "category": "smartphones",
+      "price": "14",
+      "discountPercentage": "100",
+      "stock": "12",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+      ],
+      "rating": 0
+    },
+    {
+      "id": "5ea3",
+      "title": "mouse",
+      "description": "multipurspose multicreen support",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": "909",
+      "discountPercentage": "26",
+      "stock": "23",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/1/1.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/1.jpg"
+      ],
+      "rating": 0
+    },
+    {
+      "id": "db95",
+      "title": "hello",
+      "description": "A testing producrt",
+      "brand": "Apple",
+      "category": "smartphones",
+      "price": 2000,
+      "discountPercentage": 90,
+      "stock": 1,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/7/1.jpg",
+        "https://cdn.dummyjson.com/product-images/7/2.jpg",
+        "https://cdn.dummyjson.com/product-images/7/3.jpg",
+        "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+      ],
+      "rating": 0
     }
   ],
   "brands": [
@@ -2437,6 +2493,7 @@
       "id": "0287",
       "email": "prateek9555pandey@gmail.com",
       "addresses": [],
+      "role": "user",
       "password": "Prateek@123"
     },
     {
@@ -2448,6 +2505,7 @@
     {
       "id": "ccf4",
       "email": "prateek12pandey@gmail.com",
+      "role": "user",
       "addresses": [
         {
           "name": "Prateek Pandey",
@@ -2473,13 +2531,14 @@
     {
       "id": "1766",
       "email": "ojhaayush.2911@gmail.com",
+      "role": "user",
       "password": "Ayush@2911",
       "addresses": [
         {
           "name": "Ayush ojha",
           "email": "ojhaayush.2911@gmail.com",
-          "phone": "7309648197",
-          "street": "warishganj, warishGANJ",
+          "phone": "09555650532",
+          "street": "Musafirkhana, Musafirkhana",
           "city": "Kanjas",
           "state": "Uttarpradesh",
           "pincode": "227813"
@@ -2489,11 +2548,18 @@
           "email": "ojhaayush.2911@gmail.com",
           "phone": "09555650532",
           "street": "Musafirkhana, Musafirkhana",
-          "city": "Kanjas",
+          "city": "ametgi",
           "state": "Uttarpradesh",
           "pincode": "227813"
         }
       ]
+    },
+    {
+      "id": "44fa",
+      "email": "Admin@2911gmail.com",
+      "password": "Admin@2911",
+      "addresses": [],
+      "role": "admin"
     }
   ],
   "cart": [],
@@ -3086,6 +3152,199 @@
             "phone": "09555650532",
             "street": "Musafirkhana, Musafirkhana",
             "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana, Musafirkhana",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "e52a",
+      "items": [
+        {
+          "id": "b8be",
+          "title": "Tree Oil 30ml",
+          "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+          "price": 12,
+          "discountPercentage": 4.09,
+          "rating": 4.52,
+          "stock": 78,
+          "brand": "Hemani Tea",
+          "category": "skincare",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/17/1.jpg",
+            "https://cdn.dummyjson.com/product-images/17/2.jpg",
+            "https://cdn.dummyjson.com/product-images/17/3.jpg",
+            "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
+          ],
+          "quantity": 4,
+          "user": "1766"
+        }
+      ],
+      "totalAmount": 48,
+      "totalItems": 4,
+      "user": {
+        "id": "1766",
+        "email": "ojhaayush.2911@gmail.com",
+        "role": "user",
+        "password": "Ayush@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "ametgi",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana, Musafirkhana",
+        "city": "ametgi",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "dbb9",
+      "items": [
+        {
+          "id": "5efd",
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/10/1.jpg",
+            "https://cdn.dummyjson.com/product-images/10/2.jpg",
+            "https://cdn.dummyjson.com/product-images/10/3.jpg",
+            "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+          ],
+          "quantity": 1,
+          "user": "1766"
+        }
+      ],
+      "totalAmount": 1099,
+      "totalItems": 1,
+      "user": {
+        "id": "1766",
+        "email": "ojhaayush.2911@gmail.com",
+        "role": "user",
+        "password": "Ayush@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "ametgi",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana, Musafirkhana",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "f524",
+      "items": [
+        {
+          "id": "6731",
+          "title": "Women Strip Heel",
+          "description": "Features: Flip-flops, Mid Heel, Comfortable, Striped Heel, Antiskid, Striped",
+          "price": 40,
+          "discountPercentage": 10.83,
+          "rating": 4.02,
+          "stock": 25,
+          "brand": "Sandals Flip Flops",
+          "category": "womens-shoes",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/48/1.jpg",
+            "https://cdn.dummyjson.com/product-images/48/2.jpg",
+            "https://cdn.dummyjson.com/product-images/48/3.jpg",
+            "https://cdn.dummyjson.com/product-images/48/4.jpg",
+            "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1766"
+        }
+      ],
+      "totalAmount": 40,
+      "totalItems": 1,
+      "user": {
+        "id": "1766",
+        "email": "ojhaayush.2911@gmail.com",
+        "role": "user",
+        "password": "Ayush@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "ametgi",
             "state": "Uttarpradesh",
             "pincode": "227813"
           }

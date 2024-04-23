@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react'
 import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchProductByIdAsync, selectProductById } from '../ProductListSlice'
+import { fetchProductByIdAsync, selectProductById } from '../../product-list/ProductListSlice'
 import { useParams } from 'react-router-dom'
 import { addToCartAsync } from '../../cart/cartSlice'
 import { selectLoggedInUser } from '../../auth/authSlice'
@@ -13,12 +13,12 @@ const colors= [
   { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
 ]
  const sizes= [
-  { name: 'XXS', inStock: false },
-  { name: 'XS', inStock: true },
-  { name: 'S', inStock: true },
-  { name: 'M', inStock: true },
-  { name: 'L', inStock: true },
-  { name: 'XL', inStock: true },
+  { name: 'XXS',inStock: false },
+  { name: 'XS',inStock: true },
+  { name: 'S',inStock: true },
+  { name: 'M',inStock: true },
+  { name: 'L',inStock: true },
+  { name: 'XL',inStock: true },
   { name: '2XL', inStock: true },
   { name: '3XL', inStock: true },
 ]
@@ -35,7 +35,7 @@ function classNames(...classes) {
 }
 
 
-export default function ProductDetails() {
+export default function AdminProductDetails() {
   const [selectedColor, setSelectedColor] = useState(colors[0])
   const [selectedSize, setSelectedSize] = useState(sizes[2])
   const user=useSelector(selectLoggedInUser)
@@ -254,8 +254,7 @@ export default function ProductDetails() {
               <button
                 onClick={handleCart}
                 type="submit"
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-              >
+                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                 Add to Cart
               </button>
             </form>
