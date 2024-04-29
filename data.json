@@ -5,8 +5,8 @@
       "description": "An apple mobile which is nothing like apple",
       "brand": "Apple",
       "category": "smartphones",
-      "price": 200,
-      "discountPercentage": 0,
+      "price": 900,
+      "discountPercentage": 90,
       "stock": 94,
       "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
       "images": [
@@ -132,7 +132,7 @@
       "id": "8",
       "title": "Microsoft Surface Laptop 4",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 399,
+      "price": 499,
       "discountPercentage": 10.23,
       "rating": 4.43,
       "stock": 68,
@@ -2558,177 +2558,136 @@
       "id": "44fa",
       "email": "Admin@2911gmail.com",
       "password": "Admin@2911",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "Ayush ojha",
+          "email": "ojhaayush.2911@gmail.com",
+          "phone": "09555650532",
+          "street": "Musafirkhana",
+          "city": "Kanjas",
+          "state": "Uttarpradesh",
+          "pincode": "227813"
+        },
+        {
+          "name": "Ayush ojha",
+          "email": "ojhaayush.2911@gmail.com",
+          "phone": "09555650532",
+          "street": "jagdishpur",
+          "city": "Kanjas",
+          "state": "Uttarpradesh",
+          "pincode": "227813"
+        }
+      ],
       "role": "admin"
     }
   ],
   "cart": [],
   "orders": [
     {
-      "id": "c59e",
+      "id": "36c5",
       "items": [
         {
-          "id": "3891",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+          "id": "8fbe",
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
           "images": [
-            "https://cdn.dummyjson.com/product-images/2/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/2.jpg",
-            "https://cdn.dummyjson.com/product-images/2/3.jpg",
-            "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+            "https://cdn.dummyjson.com/product-images/7/1.jpg",
+            "https://cdn.dummyjson.com/product-images/7/2.jpg",
+            "https://cdn.dummyjson.com/product-images/7/3.jpg",
+            "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
           ],
-          "quantity": 1,
-          "user": "ccf4"
+          "deleted": true,
+          "quantity": 5,
+          "user": "44fa"
         }
       ],
-      "totalAmount": 899,
-      "totalItems": 1,
+      "totalAmount": 7495,
+      "totalItems": 5,
       "user": {
-        "id": "ccf4",
-        "email": "prateek12pandey@gmail.com",
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
         "addresses": [
           {
-            "name": "Prateek Pandey",
-            "email": "prateek12pandey@gmail.com",
-            "phone": "955066485",
-            "street": "11th Main",
-            "city": "Sultanpur",
-            "state": "UP",
-            "pincode": "228001"
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
           }
         ],
-        "password": "Prateek@123"
+        "role": "admin"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Prateek Pandey",
-        "email": "prateek12pandey@gmail.com",
-        "phone": "955066485",
-        "street": "11th Main",
-        "city": "Sultanpur",
-        "state": "UP",
-        "pincode": "228001"
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
       },
-      "status": "pending"
+      "status": "dispatched"
     },
     {
-      "id": "4b49",
+      "id": "c4c3",
       "items": [
         {
-          "id": "b732",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/1/1.jpg",
-            "https://cdn.dummyjson.com/product-images/1/2.jpg",
-            "https://cdn.dummyjson.com/product-images/1/3.jpg",
-            "https://cdn.dummyjson.com/product-images/1/4.jpg",
-            "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "ccf4"
-        }
-      ],
-      "totalAmount": 549,
-      "totalItems": 1,
-      "user": {
-        "id": "ccf4",
-        "email": "prateek12pandey@gmail.com",
-        "addresses": [
-          {
-            "name": "Prateek Pandey",
-            "email": "prateek12pandey@gmail.com",
-            "phone": "955066485",
-            "street": "11th Main",
-            "city": "Sultanpur",
-            "state": "UP",
-            "pincode": "228001"
-          }
-        ],
-        "password": "Prateek@123"
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Prateek Pandey",
-        "email": "prateek12pandey@gmail.com",
-        "phone": "955066485",
-        "street": "11th Main",
-        "city": "Sultanpur",
-        "state": "UP",
-        "pincode": "228001"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "1d44",
-      "items": [
-        {
-          "id": "7334",
-          "title": "Huawei P30",
-          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "id": "c249",
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
           "price": 499,
-          "discountPercentage": 10.58,
-          "rating": 4.09,
-          "stock": 32,
-          "brand": "Huawei",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
           "images": [
-            "https://cdn.dummyjson.com/product-images/5/1.jpg",
-            "https://cdn.dummyjson.com/product-images/5/2.jpg",
-            "https://cdn.dummyjson.com/product-images/5/3.jpg"
+            "https://cdn.dummyjson.com/product-images/8/1.jpg",
+            "https://cdn.dummyjson.com/product-images/8/2.jpg",
+            "https://cdn.dummyjson.com/product-images/8/3.jpg",
+            "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
           ],
-          "quantity": 3,
-          "user": "ccf4"
+          "quantity": 1,
+          "user": "44fa"
         }
       ],
-      "totalAmount": 1497,
-      "totalItems": 3,
+      "totalAmount": 499,
+      "totalItems": 1,
       "user": {
-        "id": "ccf4",
-        "email": "prateek12pandey@gmail.com",
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
         "addresses": [
-          {
-            "name": "Prateek Pandey",
-            "email": "prateek12pandey@gmail.com",
-            "phone": "955066485",
-            "street": "11th Main",
-            "city": "Sultanpur",
-            "state": "UP",
-            "pincode": "228001"
-          },
           {
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
+            "street": "Musafirkhana",
             "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
           }
         ],
-        "password": "Prateek@123"
+        "role": "admin"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Ayush ojha",
         "email": "ojhaayush.2911@gmail.com",
         "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
+        "street": "Musafirkhana",
         "city": "Kanjas",
         "state": "Uttarpradesh",
         "pincode": "227813"
@@ -2736,378 +2695,69 @@
       "status": "pending"
     },
     {
-      "id": "ddfb",
+      "id": "c064",
       "items": [
         {
-          "id": "25e1",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+          "id": "8754",
+          "title": "Cycle Bike Glow",
+          "description": "Universal fitment and easy to install no special wires, can be easily installed and removed. Fits most standard tyre air stem valves of road, mountain bicycles, motocycles and cars.Bright led will turn on w",
+          "price": 35,
+          "discountPercentage": 11.08,
+          "rating": 4.1,
+          "stock": 63,
+          "brand": "Neon LED Light",
+          "category": "automotive",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/90/thumbnail.jpg",
           "images": [
-            "https://cdn.dummyjson.com/product-images/1/1.jpg",
-            "https://cdn.dummyjson.com/product-images/1/2.jpg",
-            "https://cdn.dummyjson.com/product-images/1/3.jpg",
-            "https://cdn.dummyjson.com/product-images/1/4.jpg",
-            "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+            "https://cdn.dummyjson.com/product-images/90/1.jpg",
+            "https://cdn.dummyjson.com/product-images/90/2.jpg",
+            "https://cdn.dummyjson.com/product-images/90/3.jpg",
+            "https://cdn.dummyjson.com/product-images/90/4.jpg",
+            "https://cdn.dummyjson.com/product-images/90/thumbnail.jpg"
           ],
           "quantity": 1,
-          "user": "1766"
+          "user": "44fa"
         }
       ],
-      "totalAmount": 549,
+      "totalAmount": 35,
       "totalItems": 1,
       "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
         "addresses": [
           {
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
+            "street": "Musafirkhana",
             "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
           }
-        ]
+        ],
+        "role": "admin"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Ayush ojha",
         "email": "ojhaayush.2911@gmail.com",
         "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
+        "street": "Musafirkhana",
         "city": "Kanjas",
         "state": "Uttarpradesh",
         "pincode": "227813"
       },
-      "status": "pending"
+      "status": "delivered"
     },
     {
-      "id": "3787",
+      "id": "1c55",
       "items": [
         {
-          "id": "58cf",
-          "title": "Seven Pocket Women Bag",
-          "description": "Seven Pocket Women Bag Handbags Lady Shoulder Crossbody Bag Female Purse Seven Pocket Bag",
-          "price": 68,
-          "discountPercentage": 14.87,
-          "rating": 4.93,
-          "stock": 13,
-          "brand": "Steal Frame",
-          "category": "womens-bags",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/75/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/75/1.jpg",
-            "https://cdn.dummyjson.com/product-images/75/2.jpg",
-            "https://cdn.dummyjson.com/product-images/75/3.jpg",
-            "https://cdn.dummyjson.com/product-images/75/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "1766"
-        }
-      ],
-      "totalAmount": 68,
-      "totalItems": 1,
-      "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
-        "addresses": [
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          }
-        ]
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Ayush ojha",
-        "email": "ojhaayush.2911@gmail.com",
-        "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
-        "city": "Kanjas",
-        "state": "Uttarpradesh",
-        "pincode": "227813"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "b0b0",
-      "items": [
-        {
-          "id": "a7ac",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/1/1.jpg",
-            "https://cdn.dummyjson.com/product-images/1/2.jpg",
-            "https://cdn.dummyjson.com/product-images/1/3.jpg",
-            "https://cdn.dummyjson.com/product-images/1/4.jpg",
-            "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "1766"
-        },
-        {
-          "id": "eb0d",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/2/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/2.jpg",
-            "https://cdn.dummyjson.com/product-images/2/3.jpg",
-            "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "1766"
-        }
-      ],
-      "totalAmount": 1448,
-      "totalItems": 2,
-      "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
-        "addresses": [
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Ayush ojha",
-        "email": "ojhaayush.2911@gmail.com",
-        "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
-        "city": "Kanjas",
-        "state": "Uttarpradesh",
-        "pincode": "227813"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "a22c",
-      "items": [
-        {
-          "id": "1f93",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/2/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/2.jpg",
-            "https://cdn.dummyjson.com/product-images/2/3.jpg",
-            "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "1766"
-        }
-      ],
-      "totalAmount": 899,
-      "totalItems": 1,
-      "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
-        "addresses": [
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Ayush ojha",
-        "email": "ojhaayush.2911@gmail.com",
-        "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
-        "city": "Kanjas",
-        "state": "Uttarpradesh",
-        "pincode": "227813"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "9d10",
-      "items": [
-        {
-          "id": "1690",
-          "title": "OPPOF19",
-          "description": "OPPO F19 is officially announced on April 2021.",
-          "price": 280,
-          "discountPercentage": 17.91,
-          "rating": 4.3,
-          "stock": 123,
-          "brand": "OPPO",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/4/1.jpg",
-            "https://cdn.dummyjson.com/product-images/4/2.jpg",
-            "https://cdn.dummyjson.com/product-images/4/3.jpg",
-            "https://cdn.dummyjson.com/product-images/4/4.jpg",
-            "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "1766"
-        }
-      ],
-      "totalAmount": 280,
-      "totalItems": 1,
-      "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
-        "addresses": [
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          },
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "warishganj, warishGANJ",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Ayush ojha",
-        "email": "ojhaayush.2911@gmail.com",
-        "phone": "09555650532",
-        "street": "warishganj, warishGANJ",
-        "city": "Kanjas",
-        "state": "Uttarpradesh",
-        "pincode": "227813"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "13e6",
-      "items": [
-        {
-          "id": "70a1",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/2/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/2.jpg",
-            "https://cdn.dummyjson.com/product-images/2/3.jpg",
-            "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "1766"
-        }
-      ],
-      "totalAmount": 899,
-      "totalItems": 1,
-      "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
-        "addresses": [
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "warishganj, warishGANJ",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          },
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Ayush ojha",
-        "email": "ojhaayush.2911@gmail.com",
-        "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
-        "city": "Kanjas",
-        "state": "Uttarpradesh",
-        "pincode": "227813"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "c356",
-      "items": [
-        {
-          "id": "9773",
+          "id": "526a",
           "title": "Samsung Universe 9",
           "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-          "price": 1249,
+          "price": 3,
           "discountPercentage": 15.46,
           "rating": 4.09,
           "stock": 36,
@@ -3115,54 +2765,81 @@
           "category": "smartphones",
           "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
           "images": [
-            "https://cdn.dummyjson.com/product-images/3/1.jpg"
+            "https://cdn.dummyjson.com/product-images/3/1.jpg",
+            "https://cdn.dummyjson.com/product-images/3/1.jpg",
+            "https://cdn.dummyjson.com/product-images/3/1.jpg",
+            "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg"
           ],
           "quantity": 1,
-          "user": "1766"
+          "user": "44fa"
+        },
+        {
+          "id": "7877",
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discountPercentage": 11.02,
+          "rating": 4.57,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/6/1.png",
+            "https://cdn.dummyjson.com/product-images/6/2.jpg",
+            "https://cdn.dummyjson.com/product-images/6/3.png",
+            "https://cdn.dummyjson.com/product-images/6/4.jpg"
+          ],
+          "quantity": 1,
+          "user": "44fa"
+        },
+        {
+          "id": "c69d",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "brand": "Apple",
+          "category": "smartphones",
+          "price": 900,
+          "discountPercentage": 90,
+          "stock": 94,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/1/1.jpg",
+            "https://cdn.dummyjson.com/product-images/1/2.jpg",
+            "https://cdn.dummyjson.com/product-images/1/3.jpg",
+            "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+          ],
+          "rating": 0,
+          "deleted": true,
+          "quantity": 1,
+          "user": "44fa"
         }
       ],
-      "totalAmount": 1249,
-      "totalItems": 1,
+      "totalAmount": 1649,
+      "totalItems": 3,
       "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "password": "Ayush@2911",
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
         "addresses": [
           {
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "warishganj, warishGANJ",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          },
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "warishganj, warishGANJ",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          },
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
+            "street": "Musafirkhana",
             "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
           }
-        ]
+        ],
+        "role": "admin"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Ayush ojha",
         "email": "ojhaayush.2911@gmail.com",
         "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
+        "street": "Musafirkhana",
         "city": "Kanjas",
         "state": "Uttarpradesh",
         "pincode": "227813"
@@ -3170,74 +2847,10 @@
       "status": "pending"
     },
     {
-      "id": "e52a",
+      "id": "8193",
       "items": [
         {
-          "id": "b8be",
-          "title": "Tree Oil 30ml",
-          "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
-          "price": 12,
-          "discountPercentage": 4.09,
-          "rating": 4.52,
-          "stock": 78,
-          "brand": "Hemani Tea",
-          "category": "skincare",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
-          "images": [
-            "https://cdn.dummyjson.com/product-images/17/1.jpg",
-            "https://cdn.dummyjson.com/product-images/17/2.jpg",
-            "https://cdn.dummyjson.com/product-images/17/3.jpg",
-            "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
-          ],
-          "quantity": 4,
-          "user": "1766"
-        }
-      ],
-      "totalAmount": 48,
-      "totalItems": 4,
-      "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "role": "user",
-        "password": "Ayush@2911",
-        "addresses": [
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "Kanjas",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          },
-          {
-            "name": "Ayush ojha",
-            "email": "ojhaayush.2911@gmail.com",
-            "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "ametgi",
-            "state": "Uttarpradesh",
-            "pincode": "227813"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Ayush ojha",
-        "email": "ojhaayush.2911@gmail.com",
-        "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
-        "city": "ametgi",
-        "state": "Uttarpradesh",
-        "pincode": "227813"
-      },
-      "status": "pending"
-    },
-    {
-      "id": "dbb9",
-      "items": [
-        {
-          "id": "5efd",
+          "id": "5757",
           "title": "HP Pavilion 15-DK1056WM",
           "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
           "price": 1099,
@@ -3254,22 +2867,21 @@
             "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
           ],
           "quantity": 1,
-          "user": "1766"
+          "user": "44fa"
         }
       ],
-      "totalAmount": 1099,
+      "totalAmount": 1031,
       "totalItems": 1,
       "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "role": "user",
-        "password": "Ayush@2911",
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
         "addresses": [
           {
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
+            "street": "Musafirkhana",
             "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
@@ -3278,19 +2890,20 @@
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "ametgi",
+            "street": "jagdishpur",
+            "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
           }
-        ]
+        ],
+        "role": "admin"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Ayush ojha",
         "email": "ojhaayush.2911@gmail.com",
         "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
+        "street": "jagdishpur",
         "city": "Kanjas",
         "state": "Uttarpradesh",
         "pincode": "227813"
@@ -3298,43 +2911,41 @@
       "status": "pending"
     },
     {
-      "id": "f524",
+      "id": "84d3",
       "items": [
         {
-          "id": "6731",
-          "title": "Women Strip Heel",
-          "description": "Features: Flip-flops, Mid Heel, Comfortable, Striped Heel, Antiskid, Striped",
-          "price": 40,
-          "discountPercentage": 10.83,
-          "rating": 4.02,
-          "stock": 25,
-          "brand": "Sandals Flip Flops",
-          "category": "womens-shoes",
-          "thumbnail": "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg",
+          "id": "d9d6",
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "brand": "Infinix",
+          "category": "laptops",
+          "price": 1234,
+          "discountPercentage": 11.83,
+          "stock": 96,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
           "images": [
-            "https://cdn.dummyjson.com/product-images/48/1.jpg",
-            "https://cdn.dummyjson.com/product-images/48/2.jpg",
-            "https://cdn.dummyjson.com/product-images/48/3.jpg",
-            "https://cdn.dummyjson.com/product-images/48/4.jpg",
-            "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg"
+            "https://cdn.dummyjson.com/product-images/9/1.jpg",
+            "https://cdn.dummyjson.com/product-images/9/2.png",
+            "https://cdn.dummyjson.com/product-images/9/3.png",
+            "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
           ],
+          "rating": 4.54,
           "quantity": 1,
-          "user": "1766"
+          "user": "44fa"
         }
       ],
-      "totalAmount": 40,
+      "totalAmount": 1088,
       "totalItems": 1,
       "user": {
-        "id": "1766",
-        "email": "ojhaayush.2911@gmail.com",
-        "role": "user",
-        "password": "Ayush@2911",
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
         "addresses": [
           {
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
+            "street": "Musafirkhana",
             "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
@@ -3343,19 +2954,408 @@
             "name": "Ayush ojha",
             "email": "ojhaayush.2911@gmail.com",
             "phone": "09555650532",
-            "street": "Musafirkhana, Musafirkhana",
-            "city": "ametgi",
+            "street": "jagdishpur",
+            "city": "Kanjas",
             "state": "Uttarpradesh",
             "pincode": "227813"
           }
-        ]
+        ],
+        "role": "admin"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Ayush ojha",
         "email": "ojhaayush.2911@gmail.com",
         "phone": "09555650532",
-        "street": "Musafirkhana, Musafirkhana",
+        "street": "Musafirkhana",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b639",
+      "items": [
+        {
+          "id": "d478",
+          "title": "Qualcomm original Car Charger",
+          "description": "best Quality CHarger , Highly Recommended to all best Quality CHarger , Highly Recommended to all",
+          "price": 40,
+          "discountPercentage": 17.53,
+          "rating": 4.2,
+          "stock": 79,
+          "brand": "TC Reusable",
+          "category": "automotive",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/89/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/89/1.jpg",
+            "https://cdn.dummyjson.com/product-images/89/2.jpg",
+            "https://cdn.dummyjson.com/product-images/89/3.jpg",
+            "https://cdn.dummyjson.com/product-images/89/4.jpg",
+            "https://cdn.dummyjson.com/product-images/89/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "44fa"
+        }
+      ],
+      "totalAmount": 33,
+      "totalItems": 1,
+      "user": {
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "jagdishpur",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "jagdishpur",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "9b0e",
+      "items": [
+        {
+          "id": "831c",
+          "title": "t Temperature Controller Incubator Controller",
+          "description": "Both Heat and Cool Purpose, Temperature control range; -50 to +110, Temperature measurement accuracy; 0.1, Control accuracy; 0.1",
+          "price": 40,
+          "discountPercentage": 11.3,
+          "rating": 4.54,
+          "stock": 37,
+          "brand": "W1209 DC12V",
+          "category": "automotive",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/87/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/87/1.jpg",
+            "https://cdn.dummyjson.com/product-images/87/2.jpg",
+            "https://cdn.dummyjson.com/product-images/87/3.jpg",
+            "https://cdn.dummyjson.com/product-images/87/4.jpg",
+            "https://cdn.dummyjson.com/product-images/87/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "44fa"
+        }
+      ],
+      "totalAmount": 35,
+      "totalItems": 1,
+      "user": {
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "jagdishpur",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "jagdishpur",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "04d5",
+      "items": [
+        {
+          "id": "be64",
+          "title": "Wholesale cargo lashing Belt",
+          "description": "Wholesale cargo lashing Belt Tie Down end Ratchet strap customized strap 25mm motorcycle 1500kgs with rubber handle",
+          "price": 930,
+          "discountPercentage": 17.67,
+          "rating": 4.21,
+          "stock": 144,
+          "brand": "Xiangle",
+          "category": "motorcycle",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/95/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/95/1.jpg",
+            "https://cdn.dummyjson.com/product-images/95/2.jpg",
+            "https://cdn.dummyjson.com/product-images/95/3.jpg",
+            "https://cdn.dummyjson.com/product-images/95/4.jpg",
+            "https://cdn.dummyjson.com/product-images/95/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "44fa"
+        }
+      ],
+      "totalAmount": 766,
+      "totalItems": 1,
+      "user": {
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "jagdishpur",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "2ee8",
+      "items": [
+        {
+          "id": "7085",
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discountPercentage": 11.02,
+          "rating": 4.57,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/6/1.png",
+            "https://cdn.dummyjson.com/product-images/6/2.jpg",
+            "https://cdn.dummyjson.com/product-images/6/3.png",
+            "https://cdn.dummyjson.com/product-images/6/4.jpg"
+          ],
+          "quantity": 1,
+          "user": "44fa"
+        }
+      ],
+      "totalAmount": 1556,
+      "totalItems": 1,
+      "user": {
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "jagdishpur",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "e345",
+      "items": [
+        {
+          "id": "fe96",
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/10/1.jpg",
+            "https://cdn.dummyjson.com/product-images/10/2.jpg",
+            "https://cdn.dummyjson.com/product-images/10/3.jpg",
+            "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+          ],
+          "quantity": 1,
+          "user": "44fa"
+        }
+      ],
+      "totalAmount": 1031,
+      "totalItems": 1,
+      "user": {
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "jagdishpur",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "jagdishpur",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "8f0c",
+      "items": [
+        {
+          "id": "41fe",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "brand": "Apple",
+          "category": "smartphones",
+          "price": 900,
+          "discountPercentage": 90,
+          "stock": 94,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/1/1.jpg",
+            "https://cdn.dummyjson.com/product-images/1/2.jpg",
+            "https://cdn.dummyjson.com/product-images/1/3.jpg",
+            "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+          ],
+          "rating": 0,
+          "deleted": true,
+          "quantity": 1,
+          "user": "44fa"
+        }
+      ],
+      "totalAmount": 90,
+      "totalItems": 1,
+      "user": {
+        "id": "44fa",
+        "email": "Admin@2911gmail.com",
+        "password": "Admin@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "jagdishpur",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ],
+        "role": "admin"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "jagdishpur",
         "city": "Kanjas",
         "state": "Uttarpradesh",
         "pincode": "227813"
