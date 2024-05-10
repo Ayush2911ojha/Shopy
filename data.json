@@ -2579,6 +2579,13 @@
         }
       ],
       "role": "admin"
+    },
+    {
+      "id": "6f8a",
+      "email": "ojhaayush.2911@gmail.com",
+      "password": "Demo@123",
+      "addresses": [],
+      "role": "user"
     }
   ],
   "cart": [],
@@ -3356,6 +3363,71 @@
         "email": "ojhaayush.2911@gmail.com",
         "phone": "09555650532",
         "street": "jagdishpur",
+        "city": "Kanjas",
+        "state": "Uttarpradesh",
+        "pincode": "227813"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "f542",
+      "items": [
+        {
+          "id": "2b47",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "brand": "Apple",
+          "category": "smartphones",
+          "price": 8,
+          "discountPercentage": 0,
+          "stock": 34,
+          "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+          "images": [
+            "https://cdn.dummyjson.com/product-images/2/1.jpg",
+            "https://cdn.dummyjson.com/product-images/2/2.jpg",
+            "https://cdn.dummyjson.com/product-images/2/3.jpg",
+            "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+          ],
+          "rating": 4.44,
+          "deleted": true,
+          "quantity": 1,
+          "user": "1766"
+        }
+      ],
+      "totalAmount": 8,
+      "totalItems": 1,
+      "user": {
+        "id": "1766",
+        "email": "ojhaayush.2911@gmail.com",
+        "role": "user",
+        "password": "Ayush@2911",
+        "addresses": [
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "Kanjas",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          },
+          {
+            "name": "Ayush ojha",
+            "email": "ojhaayush.2911@gmail.com",
+            "phone": "09555650532",
+            "street": "Musafirkhana, Musafirkhana",
+            "city": "ametgi",
+            "state": "Uttarpradesh",
+            "pincode": "227813"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Ayush ojha",
+        "email": "ojhaayush.2911@gmail.com",
+        "phone": "09555650532",
+        "street": "Musafirkhana, Musafirkhana",
         "city": "Kanjas",
         "state": "Uttarpradesh",
         "pincode": "227813"

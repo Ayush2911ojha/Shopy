@@ -15,7 +15,7 @@ export function createOrder(order) {
 export function updateOrder(order) {
   return new Promise(async (resolve) =>{
       const response=await fetch('http://localhost:8080/orders/'+order.id,{
-        method:'PATCH',
+        method:'PUT',
         body:JSON.stringify(order),
         headers:{'content-type':'application/json'}
       })

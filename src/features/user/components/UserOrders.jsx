@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchLoggedInUserOrderAsync, selectUserInfo, selectUserOrders } from '../userSlice';
-import { selectLoggedInUser } from '../../auth/authSlice';
+
 import { discountedPrice } from '../../../app/constants';
 
 export default function UserOrders() {
   const dispatch = useDispatch();
-  const user=useSelector(selectUserInfo);
+  const userInfo=useSelector(selectUserInfo);
   const orders=useSelector(selectUserOrders)
 
   
   useEffect(()=>{
-     dispatch(fetchLoggedInUserOrderAsync(user?.id))
+     dispatch(fetchLoggedInUserOrderAsync(userInfo?.id))
   },[])
   return (
       <div>
@@ -28,8 +28,8 @@ export default function UserOrders() {
           <li key={item.id} className="flex py-6">
             <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
               <img
-                src={item.thumbnail}
-                alt={item.title}
+                src={item.product.thumbnail}
+                alt={item.product.title}
                 className="h-full w-full object-cover object-center"
               />
             </div>
@@ -38,12 +38,12 @@ export default function UserOrders() {
               <div>
                 <div className="flex justify-between text-base font-medium text-gray-900">
                   <h3>
-                    <a href={item.href}>{item.title}</a>
+                    <a href={item.product.id}>{item.product.title}</a>
                   </h3>
-                  <p className="ml-4">${discountedPrice(item)}</p>
+                  <p className="ml-4">${discountedPrice(item.product)}</p>
                 </div>
                 <p className="mt-1 text-sm text-gray-500">
-                  {item.brand}</p>
+                  {item.product.brand}</p>
               </div>
               <div className="flex flex-1 items-end justify-between text-sm">
                 <div className="text-gray-500">

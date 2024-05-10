@@ -5,12 +5,12 @@ import {
   selectUserInfo,
   updateUserAsync,
 } from '../userSlice';
-import { selectLoggedInUser } from '../../auth/authSlice'
+
 import { useForm } from 'react-hook-form';
 export default function UserProfile() {
   // const count = useSelector(selectCount);
   const dispatch = useDispatch();
-  const user = useSelector(selectUserInfo);
+  const userInfo = useSelector(selectUserInfo);
   const [selectedEditIndex, setSelectedEditIndex] = useState(-1);
 
 
@@ -24,21 +24,21 @@ export default function UserProfile() {
 
   const handleRemove = (e, index) => {
 
-    const newUser = { ...user, addresses: [...user.addresses] }
+    const newUser = { ...userInfo, addresses: [...userInfo.addresses] }
     newUser.addresses.splice(index, 1);
     dispatch(updateUserAsync(newUser))
   }
 
 
   const handleEdit = (addressUpdate,index) => {
-    const newUser = { ...user, addresses: [...user.addresses] }
+    const newUser = { ...userInfo, addresses: [...userInfo.addresses] }
     newUser.addresses.splice(index, 1,addressUpdate);
     dispatch(updateUserAsync(newUser))
     setSelectedEditIndex(-1);
   }
   const handleEditForm = (index) => {
     setSelectedEditIndex(index);
-    const address = user.addresses[index];
+    const address = userInfo.addresses[index];
     setValue('name', address.name);
     setValue('email', address.email);
       setValue('pincode', address.pincode);
@@ -54,16 +54,16 @@ export default function UserProfile() {
     <div>
       <div className="mx-auto bg-white mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-          <h1 className='text-4xl my-5 font-bold tracking-tight text-gray-900'>Name: {user.name ? user.name : "guest user"} </h1>
-          <h3 className='text-xl my-5 font-bold tracking-tight text-red-900'>Email: {user.email ? user.email : "guest.2911@gmail.com"}</h3>
-          {user.role==='admin' && <h3 className='text-xl my-5 font-bold tracking-tight text-red-900'>Role: {user.role}</h3>}
+          <h1 className='text-4xl my-5 font-bold tracking-tight text-gray-900'>Name: {userInfo.name ? userInfo.name : "guest user"} </h1>
+          <h3 className='text-xl my-5 font-bold tracking-tight text-red-900'>Email: {userInfo.email ? userInfo.email : "guest.2911@gmail.com"}</h3>
+          {userInfo.role==='admin' && <h3 className='text-xl my-5 font-bold tracking-tight text-red-900'>Role: {userInfo.role}</h3>}
 
         </div>
 
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
 
           <p className="mt-0.5 text-sm text-gray-500">Your Address :</p>
-          {user.addresses.map((address, index) =>
+          {userInfo.addresses.map((address, index) =>
             <div>
               {selectedEditIndex === index ? <form className='bg-white px-5 py-12 mt-12'
                 noValidate

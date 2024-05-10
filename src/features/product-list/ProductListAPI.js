@@ -34,7 +34,7 @@ export function updateProduct(update) {
   return new Promise(async (resolve) =>{
       
       const response=await fetch('http://localhost:8080/products/'+update.id,{
-        method:'PATCH',
+        method:'PUT',
         body:JSON.stringify(update),
         headers:{'content-type':'application/json'}
       })
@@ -61,12 +61,15 @@ export function fetchAllProductsFilter(filter,sort,pagination)
   for(let key in pagination){
     queryString+=`${key}=${pagination[key]}&`
   }
+  console.log("queryString",queryString)
  
   return new Promise(async (resolve) =>{
       const response=await fetch('http://localhost:8080/products?'+queryString)
-      const data =await response.json();
-      const totalItems= data.items;
-      resolve({data:{products:data,totalItems:+totalItems}});
+    const data = await response.json();
+    console.log("response.headers.get('X-Total-Count')",response.headers.get('X-Total-Count'))
+      
+    const totalItems = await response.headers.get('X-Total-Count');
+    resolve({ data: { products: data, totalItems: +totalItems } });
   }
   );
 }
