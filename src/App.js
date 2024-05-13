@@ -15,7 +15,7 @@ import ProductDetailsPage from './pages/ProductDetailsPage';
 import Protected from './features/auth/components/Protected';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchItemsByUserIdAsync } from './features/cart/cartSlice';
-import { selectLoggedInUser } from './features/auth/authSlice';
+import { checkAuthAsync, selectLoggedInUser, selectUserChecked } from './features/auth/authSlice';
 import PageNotFound from './pages/404';
 import OrderSuccessPage from './pages/OrderSuccessPage';
 import UserOrdersPage from './pages/UserOrdersPage';
@@ -119,16 +119,23 @@ function App() {
   const dispatch=useDispatch();
   const user=useSelector(selectLoggedInUser);
   // console.log('user->',user)
+   const userChecked = useSelector(selectUserChecked);
+
+  useEffect(()=>{
+    dispatch(checkAuthAsync())
+  }, [dispatch])
+  
   useEffect(()=>{
     if(user)
     {
-      dispatch(fetchItemsByUserIdAsync(user.id))
-      dispatch(fetchLoggedInUserAsync(user.id))
+      dispatch(fetchItemsByUserIdAsync())
+    // we can get req.user by token on backend so no need to give it on frontend
+      dispatch(fetchLoggedInUserAsync())
     }
   },[dispatch,user])
   return (
     <div className="App">
-      <RouterProvider router={router}></RouterProvider>
+      {userChecked &&<RouterProvider router={router}></RouterProvider>}
     </div>
   );
 }

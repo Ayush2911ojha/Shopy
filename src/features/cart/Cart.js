@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   deleteItemFromCartAsync,
+  selectCartLoaded,
   selectItems,
   updateCartAsync,
 } from './cartSlice';
@@ -16,7 +17,8 @@ export default function Cart() {
   // const count = useSelector(selectCount);
   const dispatch = useDispatch();
   const [open, setOpen] = useState(true)
-  const items=useSelector(selectItems);
+  const items = useSelector(selectItems);
+  const cartLoaded = useSelector(selectCartLoaded)
   const totalAmount=items.reduce((amount,item)=>discountedPrice(item.product)*item.quantity +amount,0)
   const totalItems=items.reduce((total,item)=>item.quantity+total,0)
 
@@ -30,7 +32,7 @@ export default function Cart() {
 
   return (
     <>
-    {!items.length && <Navigate to='/' replace={true}></Navigate>}
+    {!items.length && cartLoaded && <Navigate to='/' replace={true}></Navigate>}
     <div className="mx-auto bg-white mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
   <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
   <h1 className='text-4xl my-12 font-bold tracking-tight text-gray-900'>Cart</h1>

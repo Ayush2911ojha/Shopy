@@ -9,16 +9,16 @@ const initialState = {
 
 export const fetchLoggedInUserOrderAsync = createAsyncThunk(
   'user/fetchLoggedInUserOrder',
-  async (id) => {
-    const response = await fetchLoggedInUserOrders(id);
+  async () => {
+    const response = await fetchLoggedInUserOrders();
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
 );
 export const fetchLoggedInUserAsync = createAsyncThunk(
   'user/fetchLoggedInUser',
-  async (id) => {
-    const response = await fetchLoggedInUser(id);
+  async () => {
+    const response = await fetchLoggedInUser();
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
@@ -61,6 +61,7 @@ export const userSlice = createSlice({
       .addCase(updateUserAsync.fulfilled, (state, action) => {
         state.status = 'idle';
         //eaelier there was  loggedInUser variable in other slice 
+        console.log("usser data in stae",state)
         state.userInfo = action.payload;
       })
      .addCase(fetchLoggedInUserAsync.pending, (state) => {

@@ -26,7 +26,7 @@ export function updateOrder(order) {
 }
 export function fetchAllOrders( pagination ) {
   let queryString = '';
- 
+ console.log("loop")
   for (let key in pagination) {
   
     queryString+=`${key}=${pagination[key]}&`
@@ -37,8 +37,9 @@ export function fetchAllOrders( pagination ) {
       const response=await fetch('http://localhost:8080/orders?'+queryString)
       const data =await response.json();
     // console.log("page data", data)
-    // const totalOrders = await response.headers.get('X-Total-Count'); why not ?
-    const totalOrders = data.length
+    const totalOrders = await response.headers.get('X-Total-Count'); 
+    console.log("totalOrders",totalOrders)
+    // const totalOrders = data.length
     resolve({ data: { orders: data, totalOrders: +totalOrders } });
   });
 }
